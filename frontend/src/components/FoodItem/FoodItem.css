@@ -85,4 +85,10 @@
     margin: 0;
     min-width: 40px;
     text-align: center;
+
+    /* Optional: Fallback for extremely large numbers */
+    /* width: 40px; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
 }
