@@ -86,9 +86,15 @@
     min-width: 40px;
     text-align: center;
 
-    /* Optional: Fallback for extremely large numbers */
-    /* width: 40px; */
-    /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
-    /* white-space: nowrap; */
+    /*
+    Optional: Fallback for extremely large quantities.  If the quantity
+    exceeds the max-width, the text will be truncated with an ellipsis ("...").
+    This is generally not recommended, as it hides information from the user,
+    but it can be used as a last resort to prevent layout issues.
+
+    max-width: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    */
 }
